@@ -1,5 +1,8 @@
+<script lang="ts" setup>
+</script>
+
 <template>
-  <h1>Pages/Home</h1>
+  <Teste />
 </template>
 
 <route lang="yaml">
