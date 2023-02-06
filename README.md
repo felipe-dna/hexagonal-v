@@ -25,3 +25,13 @@ import { Add } from '@vicons/ionicons5'
 
 # Store
 ...
+
+
+# Hexagonal Architecture
+Esse projeto busca implementar a arquitetura hexagonal, um padrão também conhecido
+como "Ports and Adapters", seguindo o seguinte fluxo de dados.
+
+
+> outside > app model > domain
+
+> browser > controller > services > business-logic < repository < dbAdapter < database
