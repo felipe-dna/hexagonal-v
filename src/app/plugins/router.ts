@@ -2,7 +2,7 @@ import type { App } from 'vue'
 import { setupLayouts } from 'virtual:generated-layouts'
 import generatedRoutes from 'virtual:generated-pages'
 import { createRouter, createWebHistory } from 'vue-router'
-import type { Module } from '@/types'
+import type { Module } from '@/app/types'
 
 const routes = setupLayouts(generatedRoutes)
 

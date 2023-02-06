@@ -24,8 +24,9 @@ export default defineConfig({
      */
     Pages({
       dirs: [
-        { dir: path.resolve(__dirname, './src/presentation/pages'), baseRoute: '/' },
+        { dir: path.resolve(__dirname, './src/app/pages'), baseRoute: '/' },
       ],
+      exclude: ['**/components/*.vue'],
     }),
 
     /**
@@ -33,7 +34,7 @@ export default defineConfig({
      * https://github.com/JohnCampionJr/vite-plugin-vue-layouts#using-configuration
      */
     Layouts({
-      layoutsDirs: 'src/presentation/layouts',
+      layoutsDirs: 'src/app/layouts',
     }),
   ],
 })
